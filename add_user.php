@@ -9,6 +9,9 @@ if(isset($_POST['submit'])){
 
 
 	
+
+
+	
 	if($fname == ''  || $phone ==''  ){
 		echo '<p class="addusererror">Fields marked with * are required</p>';
 	} else {
